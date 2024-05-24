@@ -1,0 +1,49 @@
+.navbar {
+  display: grid;
+  grid-template-rows: repeat(2, 50%);
+  height: 100px;
+  width: 100%;
+  
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.navbar-logo {
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+
+}
+
+.navbar-logo-icon {
+  display: inline;
+  font-size: 30px;
+  /* color: #3176f7; */
+  color: rgba(49, 112, 247, 0.6);
+}
+
+.search {
+  
+}
+
+.search-box {
+  display: block;
+  margin: 18.5125px auto;
+  width: 20vw;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-box:active {
+  background-color: #bebebe;
+}
